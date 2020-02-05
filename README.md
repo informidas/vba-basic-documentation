@@ -7,5 +7,10 @@ This guide will offer a gentle introduction to VBA and its constructs. It is int
 The Microsoft Office suite provides a built-in code editor that allows users to code instructions relevant to the application. There are several ways to invoke your VBA Editor, depending on your operating system.
 For Windows
 - Option 1: Holding the **Alt** key, press the function **F11** key (**Alt + F11**)
+- Option 2: Select the Developer tab, then press the Visual Basic button to activate the VBA Editor
+hint: The Developer Menu is not viosible by default. if you need to activate it, do the following:
+  From the menu choices choose *File* - *Options* - *Customize Ribbon* , then check Developer Option from the column on right. 
+
+
   
 ###
