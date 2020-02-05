@@ -16,6 +16,9 @@ For MAC
 hint: The Developer Menu is not viosible by default. if you need to activate it, do the following:
   From the menu choices choose *File* - *Options* - *Customize Ribbon* , then check Developer Option from the column on right. 
 
+sample
+![VBA IDE](/VBA_IDE.png, "sample VBA Editor screen")
+
 
   
 ###
