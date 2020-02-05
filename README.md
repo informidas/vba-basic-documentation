@@ -21,7 +21,9 @@ hint: The Developer Menu is not viosible by default. if you need to activate it,
 Below is a sample of the VBA Editor window that appears when we use one of teh above Options to launch the editor.
 ![VBA IDE](https://github.com/informidas/vba-basic-documentation/blob/master/VBA_IDE.PNG "sample VBA Editor screen")
 
+
 ---
+
 Here a few key considerations before we begin our sample coding:
 - To begin coding, we will enter our instructions in the blank area below general.
 - These instructions that we enter are called statements or vba commands.
