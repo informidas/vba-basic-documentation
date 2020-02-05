@@ -17,7 +17,7 @@ hint: The Developer Menu is not viosible by default. if you need to activate it,
   From the menu choices choose *File* - *Options* - *Customize Ribbon* , then check Developer Option from the column on right. 
 
 sample
-![VBA IDE](/VBA_IDE.png, "sample VBA Editor screen")
+![VBA IDE](https://github.com/informidas/vba-basic-documentation/blob/master/VBA_IDE.PNG, "sample VBA Editor screen")
 
 
   
