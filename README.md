@@ -93,3 +93,21 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 > Sub HelloWorld()
 >
 > End Sub
+
+---
+
+## A Capstone Example
+
+>
+> Sub PopulateRoster()
+> 'Declare Variables
+> Dim subject as string
+> 
+> 'Assign value to subject field
+> subject = "Student"
+> 
+> 'Print a message to the screen
+> msgbox("Hello " + subject)
+> 
+>
+> End Sub
