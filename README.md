@@ -52,11 +52,12 @@ Some of the most frequently used Variable Types are:
 
 Using some of the popular datatypes you could define variables as follows: <br>
 
-Dim fullname as string <br>
-Dim age as integer <br>
-Dim salary as currency <br>
-Dim DOB as date <br>
-Dim hasDegree as boolean <br>
+> Dim fullname as string <br>
+> Dim age as integer <br>
+> Dim salary as currency <br>
+> Dim DOB as date <br>
+> Dim hasDegree as boolean <br>
+> 
 
 ##### Generating Comments
 It is a good coding practice to include comments in your code. Comments provide a way for others reviewing your code to understand the intent of each statement in particular and your program in general. We declare a line of comment using a single apostrophe (')
