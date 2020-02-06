@@ -97,7 +97,7 @@ A Subroutine is a block of code (i.e. series of vba statements or commands). Thi
 Creating a subroutine begins with the keyword *Sub* and ends with the keywords *End Sub* . Below is an example of a subroutine.
 
 >
-> ##### Declaring a Subroutine
+##### Declaring a Subroutine
 > Sub HelloWorld()
 >
 > End Sub
