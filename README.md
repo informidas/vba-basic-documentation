@@ -77,7 +77,7 @@ An important part of programming is printing messages to the screen to interact 
 >
 
 #### Objects, Methods and Properties
-An important concept to remember when programming in VBA is that everything is based on a hierarchy of objects. The hierarchy for Microsoft Excel is as follows:
+Another important concept to remember when programming in VBA is that everything is based on a hierarchy of objects. The hierarchy for Microsoft Excel is as follows:
 Excel *Application -> Workbook > worksheet > columns and rows > cells and ranges*
 
 
