@@ -55,12 +55,17 @@ It is a good coding practice to include comments in your code. Comments provide 
 
 > Here is how you can declare a comment:
 >
-> 'This is a comment
+> ' This is a comment
 >
-> 'This is a second comment
+> ' This is a second comment
 >
 
-
+#### Printing messages to the screen
+An inportant part of programming is being able to print output to the screen, to interact with users. In VBA, we can print a message to the screen using message boxes. To generate a message box, type the following
+>
+> msgbox("your message goes here between the quotes")
+>
+>
 #### Subroutines
 A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
 
