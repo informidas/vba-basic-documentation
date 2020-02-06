@@ -68,17 +68,6 @@ An important part of programming is printing messages to the screen to interact 
 >
 >
 
-#### Subroutines
-A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
-
-Creating a subroutine begins with the keyword *Sub* and ends with the keywords *End Sub* . Below is an example of a subroutine.
-
->
-> ##### Declaring a Subroutine
-> Sub HelloWorld()
->
-> End Sub
-
 #### Objects, Methods and Properties
 An important concept to remember in VBA is that everything is based on a hierarchy of objects. The hierarchy for Microsoft Excel is as follows:
 Excel *Application -> Workbook > worksheet > columns and rows > cells and ranges*
@@ -93,3 +82,14 @@ Ranges are defined by a the keyword **range** followed by an open parenthesis, f
 > *range("A1").value = "Product"*
 >
 >
+
+#### Subroutines
+A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
+
+Creating a subroutine begins with the keyword *Sub* and ends with the keywords *End Sub* . Below is an example of a subroutine.
+
+>
+> ##### Declaring a Subroutine
+> Sub HelloWorld()
+>
+> End Sub
