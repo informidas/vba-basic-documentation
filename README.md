@@ -94,7 +94,8 @@ Cells on the other hand, use a row and column reference. Below are examples of u
 
 #### Arrays
 
-- An array is a collection of elements. Elements in the array can be of similar or varying types
+- An array is a collection of elements. 
+- Elements in the array can be of similar or varying types
 - Each element in an array can be access using an index (I.e. each element is associated with an index number)
 - In VBA, Arrays are zero based index - meaning the numbering for elements in an index begin with 0.
 
