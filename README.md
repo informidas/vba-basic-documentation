@@ -18,7 +18,7 @@ For MAC
 hint: The Developer Menu is not viosible by default. if you need to activate it, do the following:
   From the menu choices choose *File* - *Options* - *Customize Ribbon* , then check Developer Option from the column on right. 
 
-Below is a sample of the VBA Editor window that appears when we use one of teh above Options to launch the editor.
+Below is a sample of the VBA Editor window that appears when we use one of the above Options to launch the editor.
 ![VBA IDE](https://github.com/informidas/vba-basic-documentation/blob/master/VBA_IDE.PNG "sample VBA Editor screen")
 
 
@@ -26,12 +26,14 @@ Below is a sample of the VBA Editor window that appears when we use one of teh a
 
 Here a few key considerations before we begin our sample coding:
 - To begin coding, we will enter our instructions in the blank area below general.
-- These instructions that we enter are called statements or vba commands.
-- to end and instruction we simple press the Enter / retun key
+- These instructions that we enter are called statements or commands.
 - Each new statement / command is placed on a separate line
-
+- to end and instruction we simply press the Enter / retun key
   
 ### VBA Constructs
-VBA offers some the most useful programming constructs, many of which will be familiar, if you have ever programmed in another language
+VBA provides some the most useful programming constructs, many of which can be found in other popular programming language. 
+
+#### Subroutines
+A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
 
 
