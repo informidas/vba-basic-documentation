@@ -28,7 +28,7 @@ Here a few key considerations before we begin our sample coding:
 - To begin coding, we will enter our instructions in the blank area below general.
 - These instructions that we enter are called statements or commands.
 - Each new statement / command is placed on a separate line
-- to end and instruction we simply press the Enter / retun key
+- to end and instruction we simply press the Enter / return key
   
 ### VBA Constructs
 VBA provides some the most useful programming constructs, many of which can be found in other popular programming language. 
