@@ -80,7 +80,7 @@ Ranges are defined by a the keyword **range** followed by an open parenthesis, f
 Cells on the other hand, use a row and column reference. Below are examples of using the range and cell options for adding a heading **Product** in cell A1 we type:
 
 >
-> *range("A1").value = "Product"*
+> *range("A1").value = "Product"* <br>
 > *cells(1,1).value = "Product"*
 >
 
