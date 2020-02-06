@@ -61,7 +61,7 @@ Dim hasDegree as boolean <br>
 ##### Generating Comments
 It is a good coding practice to include comments in your code. Comments provide a way for others reviewing your code to understand the intent of each statement in particular and your program in general. We declare a line of comment using a single apostrophe (')
 
-> Here is how you can declare a comment:
+Here is how you can declare a comment:
 >
 > ' This is a comment
 >
