@@ -76,11 +76,12 @@ Understanding this hierarchy is important when programming VBA.
 
 #### Cells and Ranges
 When using VBA to add data to a sheet, we use the range or cell objects to manipulate rows and columns on the Excel spreasheet.
-Ranges are defined by a the keyword **range** followed by an open parenthesis, followed by a cell reference of a letter and a number, followed by a closing parenthesis. For example to type a heading Called Product in cell A1 we type:
+Ranges are defined by a the keyword **range** followed by an open parenthesis, followed by a cell reference of a letter and a number, followed by a closing parenthesis. <br>
+Cells on the other hand, use a row and column reference. Below are examples of using the range and cell options for adding a heading **Product** in cell A1 we type:
 
 >
 > *range("A1").value = "Product"*
->
+> *cells(1,1).value = "Product"*
 >
 
 #### Subroutines
@@ -100,7 +101,7 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 
 >
 > Sub PopulateRoster() <br>
-> 'Declare Variables <br>
+> 'Declare Variable <br>
 > Dim subject as string <br>
 > 
 > 'Assign value to subject field <br>
