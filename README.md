@@ -36,5 +36,6 @@ VBA provides some the most useful programming constructs, many of which can be f
 #### Subroutines
 A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
 
-##### Declaring a Subroutine
 Creating a subroutine begins with the keyword *Sub* and ends with the keywords *End Sub*
+
+>##### Declaring a Subroutine
