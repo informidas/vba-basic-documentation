@@ -91,6 +91,42 @@ Cells on the other hand, use a row and column reference. Below are examples of u
 > *cells(1,1).value = "Product"*
 >
 
+#### Arrays
+
+- An array is a collection of elements. Elements in the array can be of similar or varying types
+- Each element in an array can be access using an index (I.e. each element is associated with an index number)
+- In VBA, Arrays are zero based index - meaning the numbering for elements in an index begin with 0.
+
+**Example**
+Let's say we wanted to use an Array to store the days of a week, we would do the following:
+
+>
+> ' declare the array
+>
+> Dim DaysOfWeek(6) as string
+> 
+> ' Assign the days of week to each element in the array:
+>
+> DaysOfWeek(0) = "Mon"
+> DaysOfWeek(1) = "Tue"
+> DaysOfWeek(2) =  "wed"
+> DaysOfWeek(3) = "Thu"
+> DaysOfWeek(4) = "Fri"
+> DaysOfWeek(5) = "Sat"
+> DaysOfWeek(6) = "Sun"
+
+Alternately, all assignments could be performed in a single statement.
+
+>
+> DaysOfWeek = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+>
+
+Once an array has been declared and assigned values we can now reference in the remainder of Our subroutine or program.
+We reference elements as follows:
+>
+> Msgbox("The first day of the week is: " + DaysOfWeek(0) )
+>
+
 #### Subroutines
 A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
 
