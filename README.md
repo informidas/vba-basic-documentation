@@ -60,7 +60,7 @@ It is a good coding practice to include comments in your code. Comments provide 
 > ' This is a second comment
 >
 
-#### Printing messages to the screen
+#### Printing Messages to the screen
 An important part of programming is printing messages to the screen to interact with users. In VBA, we print messages to the screen using message boxes. To generate a message box, type the following:
 
 >
@@ -82,3 +82,10 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 #### Objects, Methods and Properties
 An important concept to remember in VBA is that everything is based on a hierarchy of objects. The hierarchy for Microsoft Excel is as follows:
 Excel *Application -> Workbook > worksheet > columns and rows > cells and ranges*
+
+Understanding this hierarchy is important when programming VBA.
+
+#### Cells and Ranges
+When using VBA to add data to a sheet, we use the range or cell objects to manipulate rows and columns on the Excel spreasheet.
+Ranges are defined by a the keyword **range** followed by an open parenthesis, followed by a cell reference of a letter and a number, followed by a closing parenthesis. For example to type a heading Called Product in cell A1 we type:
+*range("A1").value = "Product"*
