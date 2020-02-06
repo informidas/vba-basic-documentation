@@ -107,6 +107,8 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 > 
 > 'Print a message to the screen <br>
 > msgbox("Hello " + subject) <br>
-> 
+> msgbbox("We will add a product heading to cell: A1")
+>
+> range("A1").value = "Product"
 >
 > End Sub
