@@ -95,8 +95,6 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 >
 > End Sub
 
----
-
 ## A Capstone Example
 
 >
