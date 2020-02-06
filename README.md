@@ -32,6 +32,26 @@ Here a few key considerations before we begin our sample coding:
   
 ### VBA Constructs
 VBA provides some the most useful programming constructs, many of which can be found in other popular programming language. 
+##### Declaring a Variable
+In order to use a variable in VBA we define it as follows:
+*Dim variableName as variableType*
+Some of the most frequently used Variable Types are:
+
+* string
+* integer
+* long
+* double
+* single
+* boolean
+* array
+* date
+* decimal
+* byte
+* currency
+
+##### Generating Comments
+It is a good coding practice to include commenst in your code. Comments provide a way for others reviewing your code to understand the intent of the statements in particular and your program in general
+
 
 #### Subroutines
 A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
