@@ -61,11 +61,13 @@ It is a good coding practice to include comments in your code. Comments provide 
 >
 
 #### Printing messages to the screen
-An inportant part of programming is being able to print output to the screen, to interact with users. In VBA, we can print a message to the screen using message boxes. To generate a message box, type the following
+An important part of programming is printing messages to the screen to interact with users. In VBA, we print messages to the screen using message boxes. To generate a message box, type the following:
+
 >
 > msgbox("your message goes here between the quotes")
 >
 >
+
 #### Subroutines
 A Subroutine is a block of code (i.e. series of vba statements or commands). This subroutine when executed will run all statements in the block.
 
@@ -76,3 +78,7 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 > Sub HelloWorld()
 >
 > End Sub
+
+#### Objects, Methods and Properties
+An important concept to remember in VBA is that everything is based on a hierarchy of objects. The hierarchy for Microsoft Excel is as follows:
+Excel *Application -> Workbook > worksheet > columns and rows > cells and ranges*
