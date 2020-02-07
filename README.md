@@ -85,12 +85,24 @@ Excel *Application -> Workbook > worksheet > columns and rows > cells and ranges
 #### Cells and Ranges
 When using VBA to add data to a sheet, we use the range or cell objects to manipulate rows and columns on the Excel spreasheet.
 Ranges are defined by a the keyword **range** followed by an open parenthesis, followed by a cell reference of a letter and a number, followed by a closing parenthesis. <br>
-Cells on the other hand, use a row and column reference. Below are examples of using the range and cell options for adding a heading **Product** in cell A1 we type:
+Cells on the other hand, use a row and column reference in the form cells(row number, column number). <br>
+For example if we needed to reference the cell C4 we would type *cells(4, 3)* since we want the 4th row of the 3rd column.<br> 
+
+Below are examples of using the range and cell options for adding a heading **Product** in cell A1 we type:
 
 >
 > *range("A1").value = "Product"* <br>
 > *cells(1,1).value = "Product"*
 >
+
+#### Loops and Iterators
+Loops are useful VBA constructs when we need to iterate through a list or collection of items. There are a number of Loop constructs including: <br>
+  For Loops <br>
+  While Loops <br>
+  Do While Loops <br>
+  
+
+
 
 #### Arrays
 
