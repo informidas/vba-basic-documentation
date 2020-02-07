@@ -106,14 +106,14 @@ Loops are useful VBA constructs when we need to iterate through a list or collec
 ##### Using a For Loop
 The structure of a For Loop is as follows: <br>
 >
-> For i = x to y
-> *do some step 1*
-> *do step 2*
-> *do step 3 etc*
+> For i = x to y <br>
+> *do some step 1*  <br>
+> *do step 2*  <br>
+> *do step 3 etc*  <br>
 > Next i
-* *i* is considered an iterator
-* *x* is considered the lower boundary or where the loop will begin from
-* *y* is considered the upper boundary or where the loop will stop
+- *i* is considered an iterator <br>
+- *x* is considered the lower boundary or where the loop will begin from  <br>
+- *y* is considered the upper boundary or where the loop will stop <br>
 
 Let's use an example to illustrate. <br>
 
