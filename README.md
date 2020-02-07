@@ -87,7 +87,8 @@ When using VBA to add data to a sheet, we use the range or cell objects to manip
 Ranges are defined by a the keyword **range** followed by an open parenthesis, followed by a cell reference of a letter and a number, followed by a closing parenthesis. <br>
 Cells on the other hand, use a row and column reference in the form cells(row number, column number). <br>
 For example if we needed to reference the cell C4 we would type: <br>
-*cells(4, 3)* --> since we want the 4th row of the 3rd column.<br> 
+*cells(4, 3)* <br>
+since we want the 4th row of the 3rd column.<br> 
 
 Below are examples of using the range and cell options for adding a heading **Product** in cell A1 we type:
 
@@ -102,8 +103,11 @@ Loops are useful VBA constructs when we need to iterate through a list or collec
   While Loops <br>
   Do While Loops <br>
   
+##### Using a For Loop
+Suppose we needed to add the state abbreviation in column C, based on the data in column B how could we do tis using a loop? <br>
 
-![State_Abbreviation](https://github.com/informidas/vba-basic-documentation/blob/master/State_Abbreviation.PNG "table used in For Loop example")
+![State_Abbreviation](https://github.com/informidas/vba-basic-documentation/blob/master/State_Abbreviation.PNG "table used in For Loop example") <br>
+
 
 #### Arrays
 
