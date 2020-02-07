@@ -104,10 +104,24 @@ Loops are useful VBA constructs when we need to iterate through a list or collec
   Do While Loops <br>
   
 ##### Using a For Loop
-Suppose we needed to add the state abbreviation in column C, based on the data in column B how could we do tis using a loop? <br>
+The structure of a For Loop is as follows: <br>
+>
+> For i = x to y
+> *do some step 1*
+> *do step 2*
+> *do step 3 etc*
+> Next i
+* *i* is considered an iterator
+* *x* is considered the lower boundary or where the loop will begin from
+* *y* is considered the upper boundary or where the loop will stop
+
+Let's use an example to illustrate. <br>
+
+Suppose we needed to add the state abbreviation in column C, based on the data in column B how could we do this using a loop? <br>
 
 ![State_Abbreviation](https://github.com/informidas/vba-basic-documentation/blob/master/State_Abbreviation.PNG "table used in For Loop example") <br>
-
+>
+>
 
 #### Arrays
 
