@@ -98,11 +98,8 @@ Below are examples of using the range and cell options for adding a heading **Pr
 >
 
 #### Loops and Iterators
-Loops are useful VBA constructs when we need to iterate through a list or collection of items. There are a number of Loop constructs including: <br>
-  For Loops <br>
-  While Loops <br>
-  Do While Loops <br>
-  
+Loops are useful VBA constructs when we need to iterate through a list or collection of items. While there are a number of Loop constructs we will focus on using the For Loop construct<br>
+ 
 ##### Using a For Loop
 The structure of a For Loop is as follows: <br>
 >
