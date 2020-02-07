@@ -121,7 +121,27 @@ Suppose we needed to add the state abbreviation in column C, based on the data i
 
 ![State_Abbreviation](https://github.com/informidas/vba-basic-documentation/blob/master/State_Abbreviation.PNG "table used in For Loop example") <br>
 >
+> Sub AddStateAbbrev()
+>    Dim i As Integer
+>    
+>    For i = 2 To 8
+>    
+>        If Cells(i, 2).Value = "New Jersey" Then
+>            Cells(i, 3).Value = "NJ"
+>            
+>        ElseIf Cells(i, 2).Value = "New York" Then
+>            Cells(i, 3).Value = "NY"
+>            
+>        ElseIf Cells(i, 2).Value = "Connecticut" Then
+>            Cells(i, 3).Value = "CT"
+>            
+>        End If
+>    
+>    Next i
+>    
+> End Sub
 >
+
 
 #### Arrays
 
