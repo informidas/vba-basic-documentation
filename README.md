@@ -98,7 +98,7 @@ Below are examples of using the range and cell options for adding a heading **Pr
 >
 
 #### Loops and Iterators
-Loops are useful VBA constructs when we need to iterate through a list or collection of items. While there are a number of Loop constructs we will focus on using the For Loop construct<br>
+Loops are useful VBA constructs when we need to iterate through a list or collection of items. While there are a number of Loop constructs we will focus on using the For Loop construct.<br>
  
 ##### Using a For Loop
 The structure of a For Loop is as follows: <br>
@@ -188,7 +188,7 @@ Creating a subroutine begins with the keyword *Sub* and ends with the keywords *
 >
 > End Sub
 
-## A Capstone Example
+## A Capstone Example (To Be Added)
 
 >
 > Sub PopulateRoster() <br>
